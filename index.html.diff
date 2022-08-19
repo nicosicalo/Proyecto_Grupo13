@@ -1,0 +1,13 @@
+diff --git a/index.html b/index.html
+--- index.html
++++ index.html
+@@ -18,7 +18,7 @@
+     </ul>
+     </header>
+     <hr>
+     <h2>Vision</h2>
+-    <p> Nuestra vision como empresa es querer lograr un estandar de calidad alto, que la gente reconozca y tambien poder establecer un vinculo de confianza con el cliente, para que estos sepan que su pedido siempre va a ser cumplido con creces y rapidez. </p>
++    <p> Nuestra vision como empresa es querer lograr un estandar de calidad alto, que la gente nos reconozca y, de esta manera, poder establecer un vinculo de confianza con el cliente, para que sepan que su pedido siempre va a ser cumplido con creces y rapidez. </p>
+ </body>
+ </html>
+\ No newline at end of file
