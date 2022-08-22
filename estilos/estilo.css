@@ -24,7 +24,7 @@
     color: black;
 }
 
-.text-vision{
+.text-vision {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +37,52 @@
     justify-content: center;
 }
 
+
+.text-integrantes > ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1%;
+    padding: 1%;
+}
+
+.nav > a{
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor_integrantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor_integrantes1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contenedor_servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
