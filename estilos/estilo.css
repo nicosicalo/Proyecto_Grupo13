@@ -24,10 +24,15 @@
     color: black;
 }
 
+.list-edit > a:hover{
+    color: rgb(150, 150, 150);
+}
+
 .text-vision {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1%;
 }
 
 .text-class{
@@ -85,4 +90,42 @@
     align-items: center;
     gap: 15px;
     flex-direction: column;
+}
+
+.contenedor_mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa > iframe{
+    padding-top: 1%;
+    height: 363px;
+    border-radius: 25px;
+}
+    
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+    object-fit: cover;
+    margin: none;
+}
+
+.logo:hover{
+    width: 120px;
+    height: 120px;
+    transition: all 1s;
+    border: 5px solid rgb(255, 255, 255);
+    object-fit: cover;
+    margin: none;
 }
