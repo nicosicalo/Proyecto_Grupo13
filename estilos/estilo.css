@@ -19,6 +19,14 @@
     list-style: none;
 }
 
+.logooo{
+    background-color: #364552;
+}
+
+.lucas{
+    padding-top: 20px;
+}
+
 .list-edit > a{
     text-decoration: none;
     color: black;
@@ -116,7 +124,7 @@
     height: 100px;
     border-radius: 50px;
     cursor: pointer;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     object-fit: cover;
     margin: none;
 }
@@ -125,7 +133,71 @@
     width: 120px;
     height: 120px;
     transition: all 1s;
-    border: 5px solid rgb(255, 255, 255);
     object-fit: cover;
     margin: none;
+}
+
+
+.container {
+   background-color: #364552;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 20px;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0;
+    cursor: pointer;
+}
+
+ article:hover {
+    box-shadow: 1rem rgba(0, 0, 0, 0.3); /* para darle sombreado*/
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+ article > p{
+    margin: 1rem;
+}
+
+ul > li{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #364552;
+    height: 100px;
+    color: #fff;
+}
+footer section{
+    float: right;
+    padding-top: 5px;
+}
+footer p{      
+    margin: 0;
+}
+footer a {
+    transition: color 0.3s ease; 
+    color:#fff;
+    text-decoration: none; 
+
+}
+footer a:hover{
+    color: cornflowerblue
+}
+
+.footerstyle{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a:hover{
+    color: cornflowerblue
 }
